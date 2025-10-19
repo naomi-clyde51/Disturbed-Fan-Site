@@ -324,11 +324,14 @@ margin: 0 auto;
 
 /* SAMPLES */
 
-    .albums {
-        display: inline-block;
-        margin-right: 40px;
-        margin-left: 10px;
-        margin-bottom: 30;
+    .card-body {
+        text-align: center;
+        background-color: #241d1b;
+    
+    }
+
+    .card-body .card-title {
+        color: var(--text-color);
     }
 
     /* MASCOT */
