@@ -26,10 +26,14 @@ body {
     background-color: #0b0807;
 }
 
+.container-wrapper, footer {
+    font-family: var(--font-primary);
+
+}
+
 .container-wrapper{
     animation: load-in 1s forwards;
     background-color: #0b0807;
-    font-family: var(--font-primary);
     
     /*background-image: url("../images/group03.jpg");*/
     
@@ -133,7 +137,7 @@ nav ul li {
     display: inline-block;
 }
 
-nav ul li h1 {
+nav ul li h1, footer h1 {
     font-size: 40px;
 font-family: var(--font-quote);
 font-style: italic;
@@ -144,8 +148,8 @@ font-weight: 800;
     transition: all 100ms ease-in-out;
 }
 
-nav ul li h1:hover {
-    transform: scale(2);
+nav ul li h1:hover, footer h1:hover {
+    transform: scale(1.025);
 }
 
 nav ul li .nav-link {
@@ -336,6 +340,11 @@ margin: 0 auto;
         display: block;
         margin: 0 auto;
     }
+
+    .mascot-image:hover {
+        transform: scale(1.05);
+            transition: all 200ms ease-in-out;
+    }
     /* CONTACT */
 
     .contact-info .row {
@@ -344,14 +353,17 @@ margin: 0 auto;
         margin-top: 20px;
     }
 
-    .contact-info a {
+    .contact-info a, .cta a {
 text-decoration: none;
     }
     
 /* FOOTER */  
+.custom-footer {
+    background-color: #0b0807;
+}
+
     footer {
         width: 100%;
-        background-color: black;
         color: white;
         display: flex;
         justify-content: space-evenly;
