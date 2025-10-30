@@ -46,78 +46,139 @@ Publish & Discuss Project: Upload your project to the Blackboard site. Be prepar
     <!--Add more footer links-->
     <body>
       <div class="container-wrapper container-fluid">
-        <div class="container-md">
-          <nav class="navbar-nav sticky-top">
-            <ul>
-              <!--<li><a class="active" href="/index.html">Home</a></li>-->
-              <li><a class="nav-link" href="about.html">About</a></li>
-              <!--<li><a class="nav-link" href="photos.html">Photos</a></li>-->
-              <li><a class="nav-link" href="members.html">Members</a></li>
-              <li><a class="nav-link" href="videos.html">Videos</a></li>
-              <li>
-                <a class=".navbar-brand logo" href="index.html"
-                  ><h1>Disturbed Fan</h1></a
-                >
-              </li>
-              <li><a class="nav-link" href="samples.html">Samples</a></li>
-              <li><a class="nav-link" href="mascot.html">Mascot</a></li>
-              <li><a class="nav-link" href="contact.html">Contact</a></li>
-            </ul>
+        <div class="container">
+          <nav
+            class="navbar navbar-dark navbar-expand-lg navbar-nav sticky-top"
+          >
+            <div class="container-fluid">
+              <a class="navbar-brand logo" href="index.html"
+                ><h1>Disturbed Fan</h1></a
+              >
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active text-white"
+                      aria-current="page"
+                      href="index.html"
+                      >Home</a
+                    >
+                  </li>
+                  <!--<li class="nav-item">
+                    <a class="nav-link text-white" href="about.html"
+                      >About</a
+                    >
+                  </li>-->
+                  <!--<li class="nav-item">
+                    <a class="nav-link text-white" href="photos.html"
+                      >Photos</a
+                    >
+                  </li>-->
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="members.html"
+                      >Members</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="videos.html">Video</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="samples.html"
+                      >Samples</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="mascot.html">Mascot</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="contact.html"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
           </nav>
 
-          <header></header>
+          <header class="header-home"></header>
           <main>
-            <div class="quote col-md-12 mb-5">
-              <img
-                class="main-image mb-3"
-                src="images/mascot02.jpg"
-                alt="Disturbed - The Guy, 2018"
-                width="760px"
-              />
-
-              <h2 class="quote-line">
-                <em>
-                  "When they're searching for you, they will find a force they
-                  aren't ready for!"</em
-                >
-              </h2>
-              <h3 class="text-end fs-5 fw-light">- "Are You Ready" (2018)</h3>
-            </div>
-            <div class="main-content mt-3 mb-3">
-              <p>
-                Disturbed has been my favorite band since I was in Middle
-                School. With their
-                <span class="emphasis">adrenaline-rushing songs</span> and
-                <span class="emphasis">thought-provoking lyrics</span>, it's no
-                surprise that they are still a successful group to this day,
-                recently releasing their newest album
-                <span class="emphasis"> "Evolution"</span> on October 19th.
-              </p>
-              <p>
-                This website is my developing shrine dedicated to all of their
-                current and future accomplishments.
-              </p>
-            </div>
-            <hr />
-            <div class="cta d-flex mt-2">
+            <div class="container">
               <div class="row">
-                <div class="cta samples-cta col-md-4">
-                  <h3>
-                    Check out Disturbed's
-                    <a href="samples.html">Latest Hits</a>
+                <div class="col-md-12 quote mb-5">
+                  <img
+                    class="main-image mb-3"
+                    src="images/mascot02.jpg"
+                    alt="Disturbed - The Guy, 2018"
+                    width="760px"
+                  />
+                </div>
+                <div class="row">
+                  <h2 class="quote-line">
+                    <em>
+                      "When they're searching for you, they will find a force
+                      they aren't ready for!"</em
+                    >
+                  </h2>
+                  <h3 class="text-end fs-5 fw-light">
+                    - "Are You Ready" (2018)
                   </h3>
                 </div>
-                <div class="cta videos-cta col-md-4">
-                  <h3>
-                    Watch some of Disturbed's
-                    <a href="videos.html">Music Videos</a>
-                  </h3>
+              </div>
+              <div class="row">
+                <div class="main-content col-md-12 mt-3 mb-3">
+                  <p>
+                    Disturbed has been my favorite band since I was in Middle
+                    School. With their
+                    <span class="emphasis">adrenaline-rushing songs</span> and
+                    <span class="emphasis">thought-provoking lyrics</span>, it's
+                    no surprise that they are still a successful group to this
+                    day, recently releasing their newest album
+                    <span class="emphasis"> "Evolution"</span> on October 19th.
+                  </p>
+                  <p>
+                    This website is my developing shrine dedicated to all of
+                    their current and future accomplishments.
+                  </p>
                 </div>
-                <div class="cta members-cta col-md-4">
-                  <h3>
-                    Learn more about Disturbed's
-                    <a href="members.html">Band Members</a>
-                  </h3>
+              </div>
+              <hr />
+              <div class="cta d-flex justify-content-center mt-2">
+                <div class="row">
+                  <div class="samples-cta col-md-4">
+                    <h3>
+                      Check out Disturbed's
+                      <div class="cta-link mt-2">
+                        <a href="samples.html">Latest Hits</a>
+                      </div>
+                    </h3>
+                  </div>
+                  <div class="videos-cta col-md-4">
+                    <h3>
+                      Watch some of Disturbed's
+                      <div class="cta-link mt-2">
+                        <a href="videos.html">Music Videos</a>
+                      </div>
+                    </h3>
+                  </div>
+                  <div class="members-cta col-md-4">
+                    <h3>
+                      Learn more about Disturbed's
+                      <div class="cta-link mt-2">
+                        <a href="members.html">Band Members</a>
+                      </div>
+                    </h3>
+                  </div>
                 </div>
               </div>
             </div>
@@ -126,59 +187,91 @@ Publish & Discuss Project: Upload your project to the Blackboard site. Be prepar
       </div>
 
       <footer class="custom-footer">
+        <!--Credit-->
         <div class="container">
           <div class="row">
-            <div class="col-md-4">
-              <a class=".navbar-brand logo" href="index.html"
-                ><h1>Disturbed Fan</h1></a
-              >
+            <div
+              class="footer__website-credit col-md-6 justify-content-end align-items-center text-color"
+            >
+              <div class="col-md-4">
+                <a class=".navbar-brand logo" href="index.html"
+                  ><h1>Disturbed Fan</h1></a
+                >
+              </div>
             </div>
-            <div class="col-md-4 text-end">
-              <h5>Credit + Info</h5>
-              <ul class="list-unstyled">
-                <li><a href="https://www.disturbed1.com">Disturbed1</a></li>
-                <li><a href="https://disturbed1.com/tour/">Tour Dates</a></li>
-                <li>
-                  <a href="https://disturbed.lnk.to/DisturbedShop">Merch</a>
-                </li>
-                <li>
-                  <a href="about.html">About</a>
-                </li>
-              </ul>
+
+            <!--Footer Link Menu Right-->
+            <div class="footer__menu-links col-md-6">
+              <div class="row justify-content-end d-flex text-color">
+                <div class="col-lg-3 m-2 p-2">
+                  <h5>Credit + Info</h5>
+                  <ul class="list-unstyled">
+                    <li><a href="https://www.disturbed1.com">Disturbed1</a></li>
+                    <li>
+                      <a href="https://disturbed1.com/tour/">Tour Dates</a>
+                    </li>
+                    <li>
+                      <a href="https://disturbed.lnk.to/DisturbedShop">Merch</a>
+                    </li>
+                    <li>
+                      <a href="about.html">About</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 m-2 p-2">
+                  <h5>Socials</h5>
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="https://www.linkedin.com/in/naomi-clyde/"
+                        >LinkedIn</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://github.com/naomi-clyde51">GitHub</a>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 m-2 p-2">
+                  Contact
+                  <div>
+                    <a class="footer-link" href="mailto:naomi.clyde52@gmail.com"
+                      >Email</a
+                    >
+                  </div>
+                  <div>
+                    <a class="footer-link" href="contact.html">Contact Page</a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-md-4 text-end">
-              <h5>Socials</h5>
-              <ul class="list-unstyled">
-                <li>
-                  <a href="https://www.linkedin.com/in/naomi-clyde/"
-                    >LinkedIn</a
-                  >
-                </li>
-                <li><a href="https://github.com/naomi-clyde51">GitHub</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-          <hr />
-          <div class="row">
-            <div class="col-md-6">
-              <p>&copy; 2025 Naomi Clyde. All rights reserved.</p>
-            </div>
-            <div class="col-md-6 text-end">
-              <ul class="list-inline footer-links">
-                <li class="list-inline-item">
-                  <a href="#">Privacy Policy</a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">Terms of Service</a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">Sitemap</a>
-                </li>
-              </ul>
+            <hr />
+            <div class="row">
+              <div class="col-md-6">
+                <p>&copy; 2025 Naomi Clyde. All rights reserved.</p>
+              </div>
+              <div class="col-md-6 text-end">
+                <ul class="list-inline footer-links">
+                  <li class="list-inline-item">
+                    <a href="#">Privacy Policy</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#">Terms of Service</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#">Sitemap</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
+
+        <!--<a href="#nav">
+        <button type="button" class="back-to-top-btn rounded-circle m-2 p-3">
+          ↑
+        </button>
+      </a>-->
       </footer>
     </body>
 
